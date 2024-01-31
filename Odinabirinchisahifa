@@ -1,0 +1,3303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="csrf" content="" id="csrf">
+	<link rel="shortcut icon" href="/img/tildafavicon.ico">
+	<link rel="icon" href="/img/tildafavicon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="/img/tildafavicon-180x180.png" type="image/png">
+
+	<title>Tilda: Blank page</title>
+
+	<script src="/js/jquery-1.10.2.min.js"  type="text/javascript"></script>
+
+<script src="https://static.tildacdn.com/js/tilda-scripts-3.0.min.js"  type="text/javascript"></script>
+
+	<link href="/front/css/t-normalize.min.css?v=8462" rel="stylesheet">
+	<script src="/js/jquery-ui.min.js" type="text/javascript"></script>
+
+
+		<link href="/front/css/t-page-all.min.css?v=8462" rel="stylesheet">
+	<link href="/front/css/t-page-edit-all.min.css?v=8462" rel="stylesheet">
+
+
+	<link href="/front/css/t-common.min.css?v=8462" rel="stylesheet">
+	<link href="/front/css/td-uikit.min.css?v=8462" rel="stylesheet">
+	<link href="/front/css/t-futura.min.css?v=8462" rel="stylesheet">
+
+	<link href="/front/css/t-popups.min.css?v=8462" rel="stylesheet">
+
+	<link href="/front/css/t-project-settings.min.css?v=8462" rel="stylesheet">
+
+	<script type="text/javascript">
+
+		window.onerror = function (m, f, l, c, e) {
+			if (!window.td_jserrors) {window.td_jserrors = [];}
+				window.td_jserrors.push({
+					message: m,
+					filename: f,
+					lineno: l,
+					colno: c,
+					error: e
+				});
+		};
+
+	</script>
+
+	<script src="/front/js/t-popups.min.js?v=8462"  type="text/javascript"></script>
+
+	<!-- MiniColors -->
+	<script src="/front/js/jquery.minicolors.min.js?v=8462&nocache=yes"></script>
+	<link rel="stylesheet" href="/front/css/jquery.minicolors.min.css?v=8462&nocache=yes">
+
+	<script type="text/javascript" src="/front/js/t-common.min.js?v=8462"></script>
+	<script type="text/javascript" src="/front/js/t-helpbubble.min.js?v=8462"></script>
+	<script type="text/javascript" src="/front/js/t-translate.min.js?v=8462"></script>
+
+	<!-- Redactor is here -->
+	<script type="text/javascript" src="/front/js/jquery.htmlClean.min.js?v=8462"></script>
+			<link rel="stylesheet" href="/front/css/quill-custom.min.css?v=8462" />
+		<script type="text/javascript" src="/front/js/t-quill-2.0.min.js?v=8462"></script>
+		<script type="text/javascript">window.ver_redactor='q';</script>
+
+	<link href="/front/vendor/redactor/2/tilda_fontcolorex.css" rel="stylesheet">
+	<link href="/front/vendor/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" rel="stylesheet" />
+	<script src="/front/vendor/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.js"  type="text/javascript"></script>
+
+	<link href="/front/css/t-upload.min.css?v=8462" type="text/css" rel="stylesheet" />
+	<script src="/front/js/t-upload.min.js?v=8462" type="text/javascript"></script>
+	<script type="text/javascript">
+		lang = "RU";
+		Tildaupload_PUBLICKEY = 'uiyejbdskjfiowe32';
+		Tildaupload_UPLOADKEY = '32313734-6663-4964-a434-353935653566';	</script>
+
+	<!-- Colorpicker -->
+	<link href="/front/css/t-colorpicker.min.css?v=8462" type="text/css" rel="stylesheet" />
+	<script src="/front/js/t-colorpicker.min.js?v=8462" async type="text/javascript"></script>
+
+	<script src="/front/js/t-jserrors.min.js?v=8462"></script>
+
+
+    <link href="https://front.tildacdn.com/plugins/selectbox/t-selectbox.min.css?v=8462" rel="stylesheet">
+    <script src="https://front.tildacdn.com/plugins/selectbox/t-selectbox.min.js?v=8462" async=""></script>
+
+	<link href="https://front.tildacdn.com/plugins/previewbox/t-previewbox.min.css?v=8462" rel="stylesheet">
+	<script src="https://front.tildacdn.com/plugins/previewbox/t-previewbox.min.js?v=8462" async=""></script>
+
+
+
+<link href="/css/tilda-grid-3.0.min.css?v=8462" rel="stylesheet" media="screen">
+
+
+
+
+
+<link href="https://static.tildacdn.com/css/fonts-tildasans.css" rel="stylesheet">
+
+<link href="/projects/staticstyle/?projectid=8459826&v=8462" rel="stylesheet" media="screen">
+<link href="https://static.tildacdn.com/css/tooltipster.min.css?v=8462" rel="stylesheet">
+<script src="https://static.tildacdn.com/js/tilda-tooltip-1.0.min.js?v=8462"></script>
+
+	<script src="https://static.tildacdn.com/js/tilda-menusub-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-menu-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-cover-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-cards-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-events-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-video-processor-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-scale-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-tooltip-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-video-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-gallery-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-forms-1.0.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-slds-1.4.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/hammer.min.js" type="text/javascript"></script>
+	<script src="https://static.tildacdn.com/js/tilda-zero-1.1.min.js" type="text/javascript"></script>
+
+	<link href="https://static.tildacdn.com/css/tilda-menusub-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-cover-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-cards-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-forms-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-slds-1.4.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-carousel-1.0.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/ya-share.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/carousel-btstrp.min.css" rel="stylesheet" media="screen">
+	<link href="https://static.tildacdn.com/css/tilda-zero-gallery-1.0.min.css" rel="stylesheet" media="screen">
+
+
+
+
+
+<script type="text/javascript">
+	window.ver='8462';
+			window.jwt_ai = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VydWlkIjo3OTI2Njg1MTMsInVzZXJwbGFuIjoiMSIsInByb2plY3RpZCI6ODQ1OTgyNiwidGltZSI6MTcwNjcwOTQyM30.p7G-lfF8Yw1437Irung-yorcNYUhyDibPpiSkM5xelQ';
+	</script>
+
+
+			<style data-tpl-id="258">
+		/* T229 */
+
+.t-menusub__menu {
+    display: none;
+}
+
+.t229 {
+ width:100%;
+ position: fixed;
+ top:0;
+ z-index:990;
+ box-shadow: 0px 1px 3px rgba(0,0,0,0);
+ -webkit-transition: background-color 300ms linear;
+ -moz-transition: background-color 300ms linear;
+ -o-transition: background-color 300ms linear;
+ -ms-transition: background-color 300ms linear;
+ transition: background-color 300ms linear;
+ height:50px;
+}
+.t229__beforeready{
+ visibility: hidden;
+}
+.t229.t229__positionabsolute{
+	position: absolute;
+}
+.t229.t229__positionfixed{
+	position: fixed;
+}
+.t229.t229__positionstatic{
+	position: static;
+}
+.t229__maincontainer{
+ width:100%;
+ height:50px;
+ display: table;
+ position: relative;
+}
+
+.t229__maincontainer.t229__c12collumns{
+ max-width:1200px;
+ margin:0 auto;
+}
+
+.t229__centerside{
+ display: table-cell;
+ vertical-align: middle;
+ text-align: center;
+ width: 100%;
+}
+.t229__centerside.t229__menualign_left{
+ text-align: left;
+}
+.t229__centerside.t229__menualign_right{
+ text-align: right;
+}
+
+.t229__padding40px{
+ width:40px;
+}
+
+.t229 .t229__maincontainer.t229__c12collumns .t229__padding40px{
+ width:20px;
+}
+
+.t229 ul {
+ list-style-type:none;
+ margin: 0px;
+ padding:0 !important;
+}
+
+.t229__list_item {
+ clear: both;
+ font-size: 16px;
+ display:inline-block;
+ padding-left:15px;
+ padding-right:15px;
+ margin: 0px;
+ white-space: nowrap;
+ color: #000000;
+ font-family:'TildaSans',Arial,sans-serif;
+}
+
+.t229 a ,
+#allrecords .t229 a {
+ text-decoration:none;
+ color: #000000;
+}
+
+.t229__list_item .t-active{
+	opacity:0.7;
+}
+
+@media screen and (max-width: 1200px){
+.t229__padding40px{
+ width:20px;
+}
+}
+
+@media screen and (max-width: 980px){
+.t229{
+	position:static;
+	text-align: center;
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: auto !important;
+}
+.t229.t229__positionabsolute,
+.t229.t229__positionfixed,
+.t229.t229__positionstatic{
+	position: static;
+}
+.t229__centerside{
+	display: block;
+	text-align: center;
+	float: none;
+	padding: 20px 0px;
+}
+.t229__padding40px{
+	display: none;
+}
+.t229 .t229__list_item {
+	display:block;
+	text-align: center;
+	padding: 12px 10px !important;
+	white-space: normal;
+}
+}
+
+
+
+	</style>
+
+		<script type="text/javascript" data-tpl-id="258">
+
+	</script>
+			<style data-tpl-id="167">
+		/* T153 */
+
+.t153__title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.t153__uptitle {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    color: #ffffff;
+}
+
+.t153__descr {
+    padding: 10px 0px 20px 0px;
+    font-weight: normal;
+    letter-spacing: 0.7px;
+    color: #fff;
+}
+
+.t153__descr_center {
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: 640px) {
+    .t153__title {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .t153__uptitle {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .t153__descr {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+	</style>
+
+			<style data-tpl-id="676">
+		/* T676 */
+
+.t676__divider {
+  width: 120px;
+  margin: 0 auto;
+  display: block;
+}
+
+.t676__text-impact {
+  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 54px;
+  line-height: 1.5;
+}
+
+.t676__divider_rotate {
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.t676__divider_left {
+  margin: initial;
+}
+
+.t676__text-impact_left {
+  text-align: left;
+}
+
+@media screen and (max-width: 960px) {
+.t676__text-impact {
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+}
+
+	</style>
+
+			<style data-tpl-id="993">
+		/* t993 */
+
+.t993__container {
+	box-sizing: border-box;
+}
+.t993__btn {
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: left;
+	padding: 12px;
+	margin-bottom: 15px;
+	font-size: 16px;
+	font-weight: 500;
+	cursor: pointer;
+	line-height: 1.2;
+	height: auto;
+	min-height: 60px;
+	width: 100%;
+	background: none;
+}
+.t993__btn_centerall {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.t993__btn_center, .t993__btn_centerall {
+	text-align: center;
+}
+.t993__btn_has_descr.t993__btn {
+	padding-top: 17px;
+	padding-bottom: 17px;
+}
+.t993__btn:last-child {
+    margin-bottom: 0 !important;
+}
+.t993__items-list :last-child .t993__btn_sm {
+    margin-bottom: 0;
+}
+.t993__btn_sm {
+	min-height: 48px;
+	font-size: 14px;
+	padding: 12px;
+}
+.t993__btn_has_descr.t993__btn_sm {
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.t993__btn_lg {
+	min-height: 64px;
+	font-size: 16px;
+	padding: 16px;
+}
+.t993__btn_has_descr.t993__btn_lg {
+	padding-top: 21px;
+	padding-bottom: 21px;
+}
+.t993__btn_xl {
+	min-height: 72px;
+	font-size: 18px;
+	padding: 18px;
+}
+.t993__btn_has_descr.t993__btn_xl {
+	padding-top: 23px;
+	padding-bottom: 23px;
+}
+.t993__btn_xxl {
+	min-height: 88px;
+	font-size: 22px;
+	padding: 22px;
+}
+.t993__btn_has_descr.t993__btn_xxl {
+	padding-top: 27px;
+	padding-bottom: 27px;
+}
+
+.t993__btn svg {
+	-webkit-flex-shrink: 0;
+	flex-shrink: 0;
+    height: 100%;
+}
+.t993__btn-img {
+	visibility: hidden;
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	margin-left: 7px;
+	background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.t993__btn-text-wrapper {
+	max-width: 100%;
+	text-overflow: clip;
+	white-space: normal;
+	padding: 0 12px;
+	margin: 0;
+	margin-right: auto;
+	overflow-wrap: anywhere;
+}
+.t993__btn_center .t993__btn-text-wrapper {
+	margin-left: auto;
+}
+.t993__btn_centerall .t993__btn-text-wrapper{
+    margin: 0;
+}
+.t993__btn-text-descr {
+    font-size: 0.9em;
+    text-transform: none;
+    opacity: 0.8;
+}
+.t993__btn-text-title ~ .t993__btn-text-descr {
+    margin-top: 1px;
+}
+.t993__btn-arrow {
+    height: 18px;
+	margin-right: 7px;
+}
+.t993__btn_sm .t993__btn__arrow {
+    width: 24px;
+    height: 16px;
+}
+.t993__btn_lg .t993__btn__arrow {
+    width: 32px;
+    height: 20px;
+}
+.t993__btn_xl .t993__btn__arrow {
+    width: 36px;
+    height: 24px;
+}
+.t993__btn_xxl .t993__btn__arrow {
+    width: 44px;
+    height: 26px;
+}
+#allrecords a.t993__btn {
+	color: #fff;
+}
+
+@media (max-width: 640px) {
+	.t993__btn {
+		padding: 12px 20px;
+		margin-bottom: 10px;
+	}
+	.t993__btn_lg, .t993__btn_xl, .t993__btn_xxl{
+    	min-height: 60px;
+    	font-size: 18px;
+    }
+    .t993__btn__arrow {
+        margin-right: 0;
+    }
+	.t993__btn-img {
+		margin-left: 0;
+	}
+}
+
+	</style>
+
+		<script type="text/javascript" data-tpl-id="993">
+		function t993__paintIcons(recid, iconSize) {
+    var rec = document.querySelector('#rec' + recid);
+    if (!rec) return;
+
+    var iconsList = rec.querySelectorAll('.t993__btn-img');
+
+    iconsList.forEach(function(icon) {
+        var iconURL = icon.getAttribute('data-original');
+        if (!iconURL) return;
+
+        var iconColor = icon.getAttribute('data-icon-color') || '';
+        if (!iconColor) {
+            icon.style.visibility = 'visible';
+            return;
+        }
+
+        if(iconURL.indexOf('/lib__tildaicon__') === -1 && iconURL.indexOf('/lib/tildaicon/') === -1) {
+            icon.style.visibility = 'visible';
+            return;
+        }
+
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET', iconURL, true);
+        xhr.responseType = 'document';
+
+        xhr.onload = function() {
+            if (xhr.status >= 200 && xhr.status < 400) {
+                var response = xhr.response;
+
+                var svg = response.querySelector('svg');
+
+                var figureList = svg.querySelectorAll('*:not(g):not(title):not(desc)');
+                for(var j = 0; j < figureList.length; j++) {
+                    figureList[j].setAttribute('fill', iconColor);
+                }
+
+                if (typeof window.btoa !== 'undefined') {
+                    var svgString = new XMLSerializer().serializeToString(svg);
+                    var svgEncodedURL = 'url(data:image/svg+xml;base64,' + window.btoa(svgString) + ')';
+
+                    icon.style.backgroundImage = svgEncodedURL;
+                    icon.style.visibility = 'visible';
+                } else {
+                    svg.setAttribute('width', iconSize);
+
+                    icon.parentNode.prepend(svg);
+                    icon.remove();
+                }
+
+
+            }
+        }
+
+        xhr.send();
+    });
+}
+	</script>
+			<style data-tpl-id="548">
+		/* T548 */
+
+.t548 .t-section__topwrapper {
+    margin-bottom: 105px;
+}
+
+.t548 .t-section__title {
+    margin-bottom: 40px;
+}
+
+.t548 .t-section__descr {
+    max-width: 560px;
+}
+
+.t548 .t-section__bottomwrapper {
+    margin-top: 105px
+}
+
+.t548__imgwrapper {
+    position: relative;
+    padding-bottom: 45px;
+}
+
+.t548__col:last-child .t548__imgwrapper {
+    padding-bottom: 0 !important;
+}
+
+.t548__line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: #222;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+.t548__col:last-child .t548__line {
+    display: none;
+}
+
+.t548__img {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    position: relative;
+    z-index: 2;
+    background-color: transparent;
+    border: 2px solid #222;
+}
+
+.t548__textwrapper {
+    padding-left: 25px;
+    padding-bottom: 45px;
+}
+
+.t548__col:last-child .t548__textwrapper {
+    padding-bottom: 0 !important;
+}
+
+.t548__title {
+    margin-top: 3px;
+}
+
+.t548__descr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 960px) {
+    .t548 .t-section__bottomwrapper {
+        margin-top: 45px;
+    }
+
+    .t548 .t-section__topwrapper {
+        margin-bottom: 45px;
+    }
+
+    .t548 .t-section__title {
+        margin-bottom: 20px;
+    }
+}
+	</style>
+
+			<style data-tpl-id="844">
+		/* t844 */
+
+.t844 .t-section__topwrapper {
+    margin-bottom: 90px;
+}
+
+.t844 .t-section__bottomwrapper {
+    margin-top: 105px;
+}
+
+.t844 .t-section__title {
+    margin-bottom: 40px;
+}
+
+.t844 .t-section__descr {
+    max-width: 560px;
+}
+
+#allrecords .t844__container {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.t844__container li ul {
+    list-style-type: disc;
+}
+
+#allrecords .t844__col .t-card__link {
+    color: inherit !important;
+}
+
+.t844__wrapperleft {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.t844__wrappercenter {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.t844__separator {
+    margin-bottom: 90px;
+}
+
+.t844__bgimg {
+    margin-bottom: 25px;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.t844__img {
+    margin-bottom: 25px;
+    width: 100px;
+    height: auto;
+    max-width: 100%;
+}
+
+.t844__img_circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.t844 .t-heading {
+    margin-bottom: 25px;
+    margin-top: 12px;
+}
+
+@media screen and (max-width: 960px) {
+    .t844 .t-section__bottomwrapper {
+        margin-top: 45px;
+    }
+
+    .t844 .t-section__topwrapper {
+        margin-bottom: 45px;
+    }
+
+    .t844 .t-section__title {
+        margin-bottom: 20px;
+    }
+
+    .t844__col {
+        margin-bottom: 45px;
+    }
+
+    .t844__separator {
+        margin-bottom: 0px !important;
+    }
+
+    .t844 .t-heading {
+        margin-bottom: 15px;
+    }
+}
+	</style>
+
+		<script type="text/javascript" data-tpl-id="844">
+		function t844_init(recId) {
+	t_onFuncLoad('t_card__moveClickOnCard', function () {
+        t_card__moveClickOnCard(recId);
+    });
+
+    t_onFuncLoad('t_card__addFocusOnTab', function () {
+        t_card__addFocusOnTab(recId);
+    });
+}
+	</script>
+			<style data-tpl-id="1070">
+		/* t1070 */
+
+.t1070 .t-section__topwrapper {
+    margin-bottom: 105px;
+}
+
+.t1070 .t-section__title {
+    margin-bottom: 40px;
+}
+
+.t1070 .t-section__descr {
+    max-width: 560px;
+}
+
+.t1070 .t-card__title {
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.t1070__price {
+    margin-top: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.t1070__price-wrap .t1070__price {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.t1070__price-wrap {
+    margin-top: 25px;
+}
+
+.t1070__price_old {
+    position: relative;
+    margin-right: 3px;
+    color: #999999;
+    text-decoration: line-through;
+}
+
+.t1070 .t-card__descr {
+    margin-top: 18px;
+}
+
+.t1070 .t-card__btn {
+    display: inline-flex;
+    display: -webkit-inline-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 34px;
+}
+
+.t1070__btn-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.t1070 .t-card__descr ul {
+    padding-left: 0 !important;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.t1070 .t-card__descr li {
+    padding: 10px;
+}
+
+.t1070__content {
+    width: 100%;
+    padding: 45px 30px;
+    box-sizing: border-box;
+}
+
+.t1070__withfeatured .t1070__featured .t1070__content {
+    padding-top: 65px;
+    padding-bottom: 65px;
+}
+
+.t1070__withfeatured .t1070__col {
+    padding-top: 20px;
+}
+
+.t1070__withfeatured .t1070__featured {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.t1070__withfeatured .t1070__featured.t-col_4 {
+    max-width: 380px;
+}
+
+.t1070__withfeatured .t1070__featured.t-col_3 {
+    max-width: 280px;
+}
+
+.t1070__withfeatured .t1070__featured.t-col_6 {
+    max-width: 580px;
+}
+
+.t1070__img {
+    max-width: 90px;
+    width: 100%;
+    display: block;
+}
+
+.t1070__bgimg {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.t1070__img_circle {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.t1070__row {
+    display: -webkit-flex;
+    display: flex;
+}
+
+.t1070 .t-col {
+    display: inline-block;
+    float: none;
+}
+
+.t1070__separator {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+    .t1070__withfeatured .t1070__featured.t-col_4 {
+        max-width: 300px;
+    }
+
+    .t1070__withfeatured .t1070__featured.t-col_3 {
+        max-width: 220px;
+    }
+
+    .t1070__withfeatured .t1070__featured.t-col_6 {
+        max-width: 460px;
+    }
+
+    .t1070__separator {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .t1070 .t-section__topwrapper {
+        margin-bottom: 30px;
+    }
+
+    .t1070 .t-section__title {
+        margin-bottom: 20px;
+    }
+
+    .t1070__withfeatured .t1070__featured.t1070__col {
+        max-width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 0;
+    }
+
+    .t1070__withfeatured .t1070__col {
+        padding-top: 0;
+    }
+
+    .t1070__row {
+        display: block;
+    }
+
+    .t1070__col {
+        margin-bottom: 35px;
+    }
+
+    .t1070__row:last-child .t1070__col:last-child {
+        margin-bottom: 0;
+    }
+
+    .t1070__separator {
+        margin-bottom: 0 !important;
+    }
+}
+	</style>
+
+		<script type="text/javascript" data-tpl-id="1070">
+		function t1070_init(recId) {
+    var rec = document.getElementById('rec' + recId);
+    if (!rec) return;
+    var container = rec.querySelector('.t1070');
+    if (!container) return;
+
+    t_onFuncLoad('t_card__addFocusOnTab', function () {
+        t_card__addFocusOnTab(recId);
+    });
+
+    var rows = rec.querySelectorAll('.t1070__row');
+
+    Array.prototype.forEach.call(rows, function(row){
+        var titles = row.querySelectorAll('.t-card__title');
+        var descriptions = row.querySelectorAll('.t-card__descr');
+        var prices = row.querySelectorAll('.t1070__price');
+        var imageWrappers = row.querySelectorAll('.t1070__imgwrapper');
+
+        if (titles.length > 0) t1070_equalHeight(titles);
+        if (descriptions.length > 0) t1070_equalHeight(descriptions);
+        if (prices.length > 0) t1070_equalHeight(prices);
+        if (imageWrappers.length > 0) {
+            t1070_equalHeight(imageWrappers);
+
+            window.onload = function() {
+                t1070_equalHeight(imageWrappers);
+            };
+        }
+    });
+}
+
+function t1070_equalHeight(elements) {
+    var maxHeight = 0;
+
+    for (var i = 0; i < elements.length; i++) {
+        elements[i].style.height = '';
+    }
+
+    for (var i = 0; i < elements.length; i++) {
+        var element = elements[i];
+        var elementStyle = getComputedStyle(element, null);
+        var elementPaddingTop = parseInt(elementStyle.paddingTop) || 0;
+        var elementPaddingBottom = parseInt(elementStyle.paddingBottom) || 0;
+        var elementHeight = element.clientHeight - (elementPaddingTop + elementPaddingBottom);
+
+        if (elementHeight > maxHeight) maxHeight = elementHeight;
+    }
+
+    if (window.innerWidth >= 960) {
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].style.height = maxHeight + 'px';
+        }
+    } else {
+        for (var i = 0; i < elements.length; i++) {
+            elements[i].style.height = '';
+        }
+    }
+}
+	</script>
+			<style data-tpl-id="464">
+		/* T464 */
+
+.t464__descr ul {
+  padding: 0 !important;
+  margin: 0;
+}
+
+.t464__descr li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.t464__descr li:last-child {
+  margin-bottom: 0;
+}
+
+.t464__title {
+  margin-bottom: 14px;
+  color: #fff;
+}
+
+.t464__title a, .t464__descr a {
+  color: inherit !important;
+}
+
+.t464__floatbeaker_lr3{
+  display: none;
+}
+
+.t464__title_uppercase {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.t464__logo-link {
+  display: inline-block;
+}
+
+.t464__logo {
+  display: block;
+  max-width: 120px;
+  width: 100%;
+}
+
+.t464__text {
+  color: #525252;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 960px) {
+  .t464__col {
+    max-width: 320px;
+    display: inline;
+    float: left;
+    margin-bottom: 30px;
+  }
+  .t464__floatbeaker_lr3{
+    display: block;
+    width:100%;
+    content:" ";
+    clear: both;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .t464__col {
+    max-width: 50%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 464px) {
+  .t464__col {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+	</style>
+
+
+</head>
+
+<body style="margin:0px;" data-lang="RU" data-country="UZ">
+
+
+<!-- Fixed main menu -->
+<div class="tp-menu" role="navigation" id="mainmenu">
+
+	<div id="info-alert" style="position:fixed; width:100%; z-index:10000;"></div>
+
+	<div class="tp-menu__wrapper">
+
+
+	</div>
+
+</div>
+<!--/// Fixed main menu -->
+
+
+
+
+<div id="for_redactor_toolbar" style="position:fixed; top:-60px; left:0; height:60px; width:100%; z-index:2000; background-color:#fff;"></div>
+
+<div class="tp-library hidden"></div>
+
+<div id="editforms" class="pe-container hidden"></div>
+
+<div id="editformsxl" class="hidden"></div>
+
+<div id="closelayer" class="hidden"></div>
+
+<div id="loadicon"><img src="/tpl/img/ajax-loader.gif"></div>
+
+<div class="modal fade tm-popup tm-popup_fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog tm-popup__wrap">
+    <div class="modal-content tm-popup__window" id="myModalContent">
+    </div>
+  </div>
+</div>
+
+<div class="modal fade tm-popup tm-popup_fade" id="myHelpModal" tabindex="-1" role="dialog" aria-labelledby="myHelpModalLabel" aria-hidden="true">
+  <div class="modal-dialog tm-popup__wrap">
+    <div class="modal-content tm-popup__window" id="myHelpModalContent">
+    </div>
+  </div>
+</div>
+
+<div class="td-popup" id="popup_pagesettings">
+	<div class="td-popup__wrap">
+		<div class="td-popup-window">
+		</div>
+	</div>
+</div>
+
+<div id="savesortbuttons">
+	<div><button class="btn default btn-lg" onclick="cancelSort();">Отменить</button>&nbsp;&nbsp;<button class="btn btn-primary btn-lg" onclick="saveRecordsSort();">Сохранить порядок блоков</button></div>
+</div>
+
+<div id="saveselectbuttons">
+	<div><button class="btn default btn-lg" onclick="cancelSelect();">Вернуться к редактированию</button>&nbsp;&nbsp;&nbsp;&nbsp;<button class="btn btn-primary btn-lg" id="selectmodebtn-move" onclick="selected_records_movemodeon();">Переместить</button>&nbsp;&nbsp;<button class="btn btn-primary btn-lg" id="selectmodebtn-del" onclick="deleteRecordsSelected();">Удалить</button>&nbsp;&nbsp;<button class="btn btn-primary btn-lg" id="selectmodebtn-copy" onclick="selected_records_buf_copy();">Копировать</button>&nbsp;&nbsp;<button class="btn btn-primary btn-lg" id="selectmodebtn-paste" onclick="selected_records_pastemodeon();">Вставить</button></div>
+</div>
+
+<div class="td-popup" id="popup_searchandselectimages">
+    <div class="td-popup__wrap">
+        <div class="td-popup-window">
+          search
+        </div>
+    </div>
+</div>
+
+
+
+<!--allrecords-->
+<div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="8459826" data-tilda-page-id="42952942"  data-blocks-animationoff="yes" data-tilda-mode="edit"   >
+
+<div class="record" id="record698511114" recordid="698511114" off="" data-record-type="258" data-record-category="17" data-record-cod="ME103" style="background-image:url('/img/chess.png');" >
+
+
+	<div id="rec698511114" class="r" style="padding-bottom:0px; background-color:#fffaf1;" data-animationappear="off" data-bg-color="#fffaf1">
+
+		<!-- T229 -->
+
+
+<div id="nav698511114marker"></div>
+
+<div id="nav698511114"  class="t229 t229__positionfixed  " style="background-color: rgba(255,250,241,0.70); height:50px; position:static;" data-bgcolor-hex="#fffaf1" data-bgcolor-rgba="rgba(255,250,241,0.70)" data-navmarker="nav698511114marker" data-appearoffset="" data-bgopacity="0.70"   data-menu="yes">
+	<div class="t229__maincontainer " style="height:50px;">
+		  <div class="t229__padding40px"></div>
+		  <nav class="t229__centerside t229__menualign_right">
+				<ul role="list" class="t-menu__list uppercase">
+																						<li class="t229__list_item"
+							style="padding:0 20px 0 0;">
+							<a class="t-menu__link-item"
+								href="#rec697701750"
+
+
+																data-menu-submenu-hook="">
+									Kursga yozilish</a>
+													</li>
+																	<li class="t229__list_item"
+							style="padding:0 20px;">
+							<a class="t-menu__link-item"
+								href="#rec697701750"
+
+
+																data-menu-submenu-hook="">
+									Batafsil</a>
+													</li>
+																	<li class="t229__list_item"
+							style="padding:0 20px;">
+							<a class="t-menu__link-item"
+								href="#rec697764746"
+
+
+																data-menu-submenu-hook="">
+									Kursda qatnashish jarayonlari</a>
+													</li>
+																	<li class="t229__list_item"
+							style="padding:0 20px;">
+							<a class="t-menu__link-item"
+								href="#rec697773797"
+
+
+																data-menu-submenu-hook="">
+									Afzallkilarimiz</a>
+													</li>
+																	<li class="t229__list_item"
+							style="padding:0 0 0 20px;">
+							<a class="t-menu__link-item"
+								href="#rec698047941"
+
+
+																data-menu-submenu-hook="">
+									Ta'rif rejalar</a>
+													</li>
+														</ul>
+		  </nav>
+		  <div class="t229__padding40px"></div>
+	</div>
+</div>
+
+
+
+
+<script>
+	t_onReady(function () {
+		t_onFuncLoad('t_menu__setBGcolor', function () {
+			t_menu__setBGcolor('698511114', '.t229');
+
+        	window.addEventListener('load', function () {
+    			t_menu__setBGcolor('698511114', '.t229');
+        	});
+
+			window.addEventListener('resize', t_throttle(function () {
+				t_menu__setBGcolor('698511114', '.t229');
+			}));
+		});
+
+		t_onFuncLoad('t_menu__interactFromKeyboard', function () {
+	        t_menu__interactFromKeyboard('698511114');
+		});
+	});
+</script>
+
+
+
+
+
+
+
+<style>
+#rec698511114 .t-menu__link-item{
+		-webkit-transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+	transition: color 0.3s ease-in-out, opacity 0.3s ease-in-out;
+			position: relative;
+	}
+
+
+
+#rec698511114 .t-menu__link-item.t-active:not(.t978__menu-link){
+	color:#000000 !important;		}
+
+#rec698511114 .t-menu__link-item.t-active::after {
+content: '';
+position: absolute;
+left: 0;
+-webkit-transition: all 0.3s ease;
+transition: all 0.3s ease;
+top: 50%;
+width: 100%;
+border-bottom: 2px solid #0000FF;
+}
+
+
+
+@supports (overflow:-webkit-marquee) and (justify-content:inherit)
+{
+	#rec698511114 .t-menu__link-item,
+	#rec698511114 .t-menu__link-item.t-active {
+	opacity: 1 !important;
+	}
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--[if IE 8]>
+<style>
+#rec698511114 .t229 {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#D9fffaf1', endColorstr='#D9fffaf1');
+}
+</style>
+<![endif]-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <style> #rec698511114 .t229__list_item .t-menu__link-item {  font-size: 13px;  color: #1b1809; font-weight: 500; font-family: 'Georgia'; text-transform: uppercase; }</style>
+
+
+	</div>
+
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+
+							addEditUi("698511114","258");
+				addEditFieldEvents_new("698511114");
+				addEditOnReady("698511114");
+
+		});
+	</script>
+
+
+</div>
+
+
+<div class="record" id="record694579021" recordid="694579021" off="" data-record-type="167" data-record-category="1" data-record-cod="CR07"  >
+
+
+	<div id="rec694579021" class="r" style="padding-top:0px;padding-bottom:0px; " data-animationappear="off" >
+
+		<!-- cover -->
+
+
+
+
+
+<script>
+	t_onReady(function () {
+		cover_init(694579021);
+	});
+</script>
+
+
+<div class="t-cover"
+	id="recorddiv694579021"
+	bgimgfield="img"
+	style="height:100vh; background-image: none;"
+	data-tu-noclick="yes">
+
+	<div class="t-cover__carrier" id="coverCarry694579021"data-content-cover-id="694579021"data-content-cover-bg="https://static.tildacdn.com/tild6432-3139-4966-a537-353361313037/__2024-01-29_182717.png"data-display-changed="true"data-content-cover-height="100vh"data-content-cover-parallax=""style="background-image:url('https://static.tildacdn.com/tild6432-3139-4966-a537-353361313037/__2024-01-29_182717.png');height:100vh;background-attachment:scroll; "itemscope itemtype="http://schema.org/ImageObject"><meta itemprop="image" content="https://static.tildacdn.com/tild6432-3139-4966-a537-353361313037/__2024-01-29_182717.png"></div>
+
+	<div class="t-cover__filter" style="height:100vh;background-image: -moz-linear-gradient(top, rgba(252,218,5,0.20), rgba(242,242,242,0.90));background-image: -webkit-linear-gradient(top, rgba(252,218,5,0.20), rgba(242,242,242,0.90));background-image: -o-linear-gradient(top, rgba(252,218,5,0.20), rgba(242,242,242,0.90));background-image: -ms-linear-gradient(top, rgba(252,218,5,0.20), rgba(242,242,242,0.90));background-image: linear-gradient(top, rgba(252,218,5,0.20), rgba(242,242,242,0.90));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#ccfcda05', endColorstr='#19f2f2f2');"></div>
+
+    <div class="t-container">
+                <div class="t-col t-col_12">
+            <div class="t-cover__wrapper t-valign_middle" style="height:100vh;">
+                <div class="t153 t-align_center" data-hook-content="covercontent">
+                                            <div class="t153__uptitle t-uptitle t-uptitle_sm" data-animate-style="zoomin" data-animate-group="yes" field="subtitle"><div style="font-size: 28px;" data-customstyle="yes"><u style="color: rgb(0, 0, 0);">Biznes boshlamoqchimisiz</u></div></div>
+
+                                            <div class="t153__title t-title t-title_xxs" data-animate-style="zoomin" data-animate-group="yes" field="title"><div style="font-size: 52px;" data-customstyle="yes"><strong style="color: rgb(250, 212, 5); font-family: Georgia;">Odina Abdujabborova</strong></div></div>
+
+                                            <div class="t153__descr t153__descr_center t-descr t-descr_xs" data-animate-style="zoomin" data-animate-group="yes" field="descr"><div style="font-size: 28px;" data-customstyle="yes"><strong style="color: rgb(0, 0, 0);">bilan biznesingizga kerakli bolgan bilimlarni oling</strong></div></div>
+
+                    <span class="space"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+
+							addEditUi("694579021","167");
+				addEditFieldEvents_new("694579021");
+				addEditOnReady("694579021");
+
+		});
+	</script>
+
+
+</div>
+
+
+<div class="record" id="record694585578" recordid="694585578" off="" data-record-type="676" data-record-category="2" data-record-cod="IP202"  >
+
+
+	<div id="rec694585578" class="r" style="padding-top:0px;padding-bottom:0px; background-color:#fffbf4;"  data-bg-color="#fffbf4">
+
+		<!-- T676 -->
+<div class="t676">
+  <div class="t-container">
+    <div class="t-row">
+      <div class="t-col t-col_8 t-prefix_2" data-animate-style="zoomin">
+                <svg role="presentation" class="t676__divider" style="fill:#fcda05;" xmlns="http://www.w3.org/2000/svg" width="50" height="11.93" viewBox="0 0 88 21"><path fill-rule="evenodd" d="M77.2 20.9s-.9-4.3-3.5-6.9c-2.6-2.6-6.9-3.5-6.9-3.5s4.3-.9 6.9-3.5c2.6-2.7 3.5-7 3.5-7s.9 4.3 3.5 7c2.6 2.6 7 3.5 7 3.5s-4.3.9-6.9 3.5c-2.7 2.6-3.6 6.9-3.6 6.9zm-32.9 0s-.9-4.3-3.5-6.9c-2.6-2.6-6.9-3.5-6.9-3.5s4.3-.9 6.9-3.5c2.6-2.7 3.5-7 3.5-7s.9 4.3 3.5 7c2.6 2.6 7 3.5 7 3.5s-4.3.9-6.9 3.5c-2.7 2.6-3.6 6.9-3.6 6.9zm-33.2 0s-.9-4.3-3.5-6.9C5 11.4.7 10.5.7 10.5S5 9.6 7.6 7c2.5-2.7 3.5-7 3.5-7s.9 4.3 3.5 7c2.6 2.6 7 3.5 7 3.5s-4.3.9-6.9 3.5c-2.7 2.6-3.6 6.9-3.6 6.9z"/></svg>
+                <div class="t676__text-impact t-text-impact t-text-impact_md" field="text"><span style="font-family: Georgia;">Kursga qabul ochiq</span><br /><strong style="font-family: Georgia; color: rgb(250, 212, 5);">Ayollar uchun online biznes</strong><br /><span style="font-family: Georgia;">Siz bu kursda o'qib uyda o'tirgan</span><br /><span style="font-family: Georgia;">holda 200 mingdan boshlab 200$ gacha</span><br /><span style="font-family: Georgia;">pul ishlab topishingiz mumkin</span></div>
+                        <svg role="presentation" class="t676__divider" style="fill:#fcda05;" xmlns="http://www.w3.org/2000/svg" width="50" height="11.93" viewBox="0 0 88 21"><path fill-rule="evenodd" d="M77.2 20.9s-.9-4.3-3.5-6.9c-2.6-2.6-6.9-3.5-6.9-3.5s4.3-.9 6.9-3.5c2.6-2.7 3.5-7 3.5-7s.9 4.3 3.5 7c2.6 2.6 7 3.5 7 3.5s-4.3.9-6.9 3.5c-2.7 2.6-3.6 6.9-3.6 6.9zm-32.9 0s-.9-4.3-3.5-6.9c-2.6-2.6-6.9-3.5-6.9-3.5s4.3-.9 6.9-3.5c2.6-2.7 3.5-7 3.5-7s.9 4.3 3.5 7c2.6 2.6 7 3.5 7 3.5s-4.3.9-6.9 3.5c-2.7 2.6-3.6 6.9-3.6 6.9zm-33.2 0s-.9-4.3-3.5-6.9C5 11.4.7 10.5.7 10.5S5 9.6 7.6 7c2.5-2.7 3.5-7 3.5-7s.9 4.3 3.5 7c2.6 2.6 7 3.5 7 3.5s-4.3.9-6.9 3.5c-2.7 2.6-3.6 6.9-3.6 6.9z"/></svg>
+                      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+
+							addEditUi("694585578","676");
+				addEditFieldEvents_new("694585578");
+				addEditOnReady("694585578");
+
+		});
+	</script>
+
+
+</div>
+
+
+<div class="record" id="record697701750" recordid="697701750" off="" data-record-type="993" data-record-category="41" data-record-cod="BF802A"  >
+
+
+	<div id="rec697701750" class="r" style="padding-top:135px;padding-bottom:0px; " data-animationappear="off" >
+
+		<!-- t993 -->
+
+
+
+<div class="t993">
+    <div class="t993__container t-container t-align_center">
+		<div class="t993__col t-col t-col_8 t-prefix_2">
+			<div class="t993__items-list"  data-animate-style="fadeindown" data-animate-group="yes" data-animate-order="3" data-animate-delay="0.3">
+
+
+
+
+
+
+
+				<a
+					class="t-btn t993__btn t-btn_md t993__btn_centerall"
+					data-btneffects-first="btneffects-flash"					href="#rec697701750"
+										style="color:#ffffff;background-color:#fcda05;border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;"
+					data-buttonfieldset="li_button"
+					data-lid="6993192317362"
+				>
+											<div
+							class="t993__btn-img t-bgimg"
+							bgimgfield="li_img__6993192317362"
+							data-original="https://static.tildacdn.com/tild6535-3431-4437-b931-363161633432/Tilda_Icons_40_Print.svg"
+							style="background-image:url('https://static.tildacdn.com/tild6535-3431-4437-b931-363161633432/Tilda_Icons_40_Print.svg'); width: 20px; height: 20px;"
+							data-icon-color='#ffffff'						></div>
+
+					<div class="t993__btn-text-wrapper" >
+													<div class="t993__btn-text-title">Kursga yozilish</div>
+																	</div>
+
+
+									</a>
+
+
+
+
+
+
+
+				<a
+					class="t-btn t993__btn t-btn_md t993__btn_centerall"
+					data-btneffects-first="btneffects-flash"					href="https://tilda.cc/page/preview/?pageid=43193045&amp;lang=RU"
+					target="_blank"					style="color:#ffffff;background-color:#fcda05;border-radius:6px; -moz-border-radius:6px; -webkit-border-radius:6px;"
+					data-buttonfieldset="li_button"
+					data-lid="6993192317363"
+				>
+											<div
+							class="t993__btn-img t-bgimg"
+							bgimgfield="li_img__6993192317363"
+							data-original="https://static.tildacdn.com/tild3432-6435-4761-b535-356136323233/Tilda_Icons_45_quest.svg"
+							style="background-image:url('https://static.tildacdn.com/tild3432-6435-4761-b535-356136323233/Tilda_Icons_45_quest.svg'); width: 20px; height: 20px;"
+							data-icon-color='#ffffff'						></div>
+
+					<div class="t993__btn-text-wrapper" >
+													<div class="t993__btn-text-title">Batafsil</div>
+																	</div>
+
+
+									</a>
+						</div>
+		</div>
+	</div>
+</div>
+
+	<script>
+			t_onReady(function () {
+				t_onFuncLoad('t993__paintIcons', function () {
+					t993__paintIcons('697701750', '20');
+				});
+			});
+	</script>
+
+
+
+	<style>
+		#rec697701750 .t-btn[data-btneffects-first],
+		#rec697701750 .t-btn[data-btneffects-second],
+		#rec697701750 .t-btn[data-btneffects-third],
+		#rec697701750 .t-submit[data-btneffects-first],
+		#rec697701750 .t-submit[data-btneffects-second],
+		#rec697701750 .t-submit[data-btneffects-third] {
+			position: relative;
+			overflow: hidden;
+			isolation: isolate;
+		}
+
+					#rec697701750 .t-btn[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects,
+			#rec697701750 .t-submit[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects {
+				position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			-webkit-transform: translateX(-85px);
+			-ms-transform: translateX(-85px);
+				transform: translateX(-85px);
+			-webkit-animation-name: flash;
+				animation-name: flash;
+				-webkit-animation-duration: 3s;
+				animation-duration: 3s;
+				-webkit-animation-timing-function: linear;
+				animation-timing-function: linear;
+				-webkit-animation-iteration-count: infinite;
+				animation-iteration-count: infinite;
+			}
+
+			#rec697701750 .t-btn[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects_md,
+			#rec697701750 .t-submit[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects_md  {
+				-webkit-animation-name: flash-md;
+				animation-name: flash-md;
+			}
+
+			#rec697701750 .t-btn[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects_lg,
+			#rec697701750 .t-submit[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects_lg  {
+				-webkit-animation-name: flash-lg;
+				animation-name: flash-lg;
+			}
+
+			#rec697701750 .t-btn[data-btneffects-first="btneffects-flash"] .t-btn_effects,
+			#rec697701750 .t-submit[data-btneffects-first="btneffects-flash"] .t-btn_effects {
+				background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .4)));
+			background: -webkit-linear-gradient(left, rgba(255, 255, 255, .1), rgba(255, 255, 255, .4));
+			background: -o-linear-gradient(left, rgba(255, 255, 255, .1), rgba(255, 255, 255, .4));
+			background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .4));
+			width: 45px;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 30px;
+				-webkit-transform: skewX(-45deg);
+				-ms-transform: skewX(-45deg);
+				transform: skewX(-45deg);
+			}
+
+
+			@-webkit-keyframes flash {
+				20% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+			@keyframes flash {
+				20% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+			@-webkit-keyframes flash-md {
+				30% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+			@keyframes flash-md {
+				30% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+			@-webkit-keyframes flash-lg {
+				40% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+			@keyframes flash-lg {
+				40% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+
+			</style>
+
+
+
+	<script>
+
+		t_onReady(function() {
+							var rec = document.getElementById('rec697701750');
+				if (!rec) return;
+
+				var firstButton = rec.querySelectorAll('.t-btn[data-btneffects-first], .t-submit[data-btneffects-first]');
+				Array.prototype.forEach.call(firstButton, function (button) {
+					button.insertAdjacentHTML('beforeend', '<div class="t-btn_wrap-effects"><div class="t-btn_effects"></div></div>');
+					var buttonEffect = button.querySelector('.t-btn_wrap-effects');
+
+					if (button.offsetWidth > 230) {
+						buttonEffect.classList.add('t-btn_wrap-effects_md');
+					}
+
+					if (button.offsetWidth > 750) {
+						buttonEffect.classList.remove('t-btn_wrap-effects_md');
+						buttonEffect.classList.add('t-btn_wrap-effects_lg');
+					}
+				});
+
+
+
+
+					});
+
+	</script>
+
+
+	</div>
+
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+
+							addEditUi("697701750","993");
+				addEditFieldEvents_new("697701750");
+				addEditOnReady("697701750");
+
+		});
+	</script>
+
+
+</div>
+
+
+<div class="record" id="record697764746" recordid="697764746" off="" data-record-type="548" data-record-category="30" data-record-cod="HW201"  >
+
+
+	<div id="rec697764746" class="r" style="padding-top:150px;padding-bottom:150px; "  >
+
+		<!-- t548 -->
+
+<div class="t548">
+
+			<div class="t-section__container t-container">
+		<div class="t-col t-col_12">
+			<div class="t-section__topwrapper t-align_center">
+				<div class="t-section__title t-title t-title_xs" data-animate-style="zoomin" data-animate-group="yes" field="btitle"><span style="color: rgb(248, 215, 34);">Kursda qatnashish jarayonlari</span></div>							</div>
+		</div>
+	</div>
+
+		<div class="t-container">
+																<div class="t548__col t-item t-col t-col_8 t-prefix_2">
+						<div class="t548__imgwrapper t-cell t-valign_top" data-animate-style="fadein" data-animate-group="yes" data-animate-order="1" style="padding-bottom:80px;">
+							<div class="t548__img t-bgimg"
+								data-original="https://static.tildacdn.com/lib/tildaicon/63663564-3530-4730-b866-376431326537/touragency_callcentre.svg"
+								bgimgfield="li_img__5335115271620"
+								style="background-image: url('https://static.tildacdn.com/lib/tildaicon/63663564-3530-4730-b866-376431326537/touragency_callcentre.svg');  border-width: 2px;"
+
+								itemscope itemtype="http://schema.org/ImageObject">
+									<meta itemprop="image" content="https://static.tildacdn.com/lib/tildaicon/63663564-3530-4730-b866-376431326537/touragency_callcentre.svg">
+																</div>
+							<div class="t548__line" style="width: 2px;background: #e0e0e0;"></div>
+						</div>
+						<div class="t548__textwrapper t-cell t-valign_top" data-animate-style="zoomin" data-animate-chain="yes" style="padding-bottom:80px;">
+															<div class="t548__title t-name t-name_lg" field="li_title__5335115271620">Aloqaga chiqing</div>
+																						<div class="t548__descr t-text t-text_xs" field="li_descr__5335115271620">Biz bilan boglaning, kerakali ma'lumotlarga ega bo'ling</div>
+																				</div>
+					</div>
+																				<div class="t548__col t-item t-col t-col_8 t-prefix_2">
+						<div class="t548__imgwrapper t-cell t-valign_top" data-animate-style="fadein" data-animate-group="yes" data-animate-order="1" style="padding-bottom:80px;">
+							<div class="t548__img t-bgimg"
+								data-original="https://static.tildacdn.com/lib/tildaicon/30663338-3561-4630-b330-303335383431/documents.svg"
+								bgimgfield="li_img__5335115271621"
+								style="background-image: url('https://static.tildacdn.com/lib/tildaicon/30663338-3561-4630-b330-303335383431/documents.svg');  border-width: 2px;"
+
+								itemscope itemtype="http://schema.org/ImageObject">
+									<meta itemprop="image" content="https://static.tildacdn.com/lib/tildaicon/30663338-3561-4630-b330-303335383431/documents.svg">
+																</div>
+							<div class="t548__line" style="width: 2px;background: #e0e0e0;"></div>
+						</div>
+						<div class="t548__textwrapper t-cell t-valign_top" data-animate-style="zoomin" data-animate-chain="yes" style="padding-bottom:80px;">
+															<div class="t548__title t-name t-name_lg" field="li_title__5335115271621">Kursda royxatdan o'ting</div>
+																						<div class="t548__descr t-text t-text_xs" field="li_descr__5335115271621">Kursada ishtirok etish uchun kerakli ta'rif rejalarini tanlang va tolovni amalga oshiring.<br />To'lovni onlayn tarzda otkazishingiz mumkin</div>
+																				</div>
+					</div>
+																				<div class="t548__col t-item t-col t-col_8 t-prefix_2">
+						<div class="t548__imgwrapper t-cell t-valign_top" data-animate-style="fadein" data-animate-group="yes" data-animate-order="1" style="padding-bottom:80px;">
+							<div class="t548__img t-bgimg"
+								data-original="https://static.tildacdn.com/lib/tildaicon/37373331-3938-4130-b663-326562383532/cafe_flag.svg"
+								bgimgfield="li_img__5335115271622"
+								style="background-image: url('https://static.tildacdn.com/lib/tildaicon/37373331-3938-4130-b663-326562383532/cafe_flag.svg');  border-width: 2px;"
+
+								itemscope itemtype="http://schema.org/ImageObject">
+									<meta itemprop="image" content="https://static.tildacdn.com/lib/tildaicon/37373331-3938-4130-b663-326562383532/cafe_flag.svg">
+																</div>
+							<div class="t548__line" style="width: 2px;background: #e0e0e0;"></div>
+						</div>
+						<div class="t548__textwrapper t-cell t-valign_top" data-animate-style="zoomin" data-animate-chain="yes" style="padding-bottom:80px;">
+															<div class="t548__title t-name t-name_lg" field="li_title__5335115271622">Natija</div>
+																						<div class="t548__descr t-text t-text_xs" field="li_descr__5335115271622">Siz bizning kursda kerakligicha o'qib, shu paytgacha nimalarni o'rganganingizni sarhisob qilasiz. Agar natija sizga yoqmasa 50% puliningizni qaytarib beramiz</div>
+																				</div>
+					</div>
+									</div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+
+							addEditUi("697764746","548");
+				addEditFieldEvents_new("697764746");
+				addEditOnReady("697764746");
+
+		});
+	</script>
+
+
+</div>
+
+
+<div class="record" id="record697773797" recordid="697773797" off="" data-record-type="844" data-record-category="39" data-record-cod="SV201"  >
+
+
+	<div id="rec697773797" class="r" style="padding-top:135px;padding-bottom:165px; background-color:#fffaf1;" data-animationappear="off" data-bg-color="#fffaf1">
+
+		<!-- t844 -->
+
+
+
+
+
+
+
+
+<div class="t844">
+			<div class="t-section__container t-container">
+		<div class="t-col t-col_12">
+			<div class="t-section__topwrapper t-align_center">
+				<div class="t-section__title t-title t-title_xs" data-animate-style="zoomin" data-animate-group="yes" field="btitle"><div style="font-size: 30px;" data-customstyle="yes"><span style="font-family: Arial; color: rgb(252, 218, 5); font-size: 32px;">Afzalliklarimiz</span><br /><br /><br /><br /></div></div>							</div>
+		</div>
+	</div>
+				<div class="t844__container t-card__container t-container">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div class="t-card__col t-card__col_withoutbtn t844__col t-col t-col_4 t-align_center t-item" data-animate-style="zoomin" data-animate-chain="yes">
+																					<img class="t844__img  t-img"
+									src="https://static.tildacdn.com/lib/tildaicon/30303234-3031-4632-b665-663432663337/cowork_mac.svg"
+									imgfield="li_img__2112642165530"
+									 data-tu-max-width="400" data-tu-max-height="400"									 style="width:80px;"									 alt="">
+
+															<div class="t844__wrappercenter">
+
+
+			<div class="t-card__title t-heading t-heading_md" field="li_title__2112642165530" data-redactor-nohref='yes'>
+							<strong style="color: rgb(252, 218, 5); font-family: Georgia;">Turli xil hunarlar</strong>
+					</div>
+
+
+			<div class="t-card__descr t-descr t-descr_sm" field="li_descr__2112642165530" data-redactor-nohref='yes'>
+			<p style="text-align: center;"> Kursda ishtirok etsangiz turli</p><p style="text-align: center;"> xil zamonaviy xunar egasiga aylanasiz</p><br /><br /><br /><br /><br />
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  								</div>
+																		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div class="t-card__col t-card__col_withoutbtn t844__col t-col t-col_4 t-align_center t-item" data-animate-style="zoomin" data-animate-chain="yes">
+																					<img class="t844__img  t-img"
+									src="https://static.tildacdn.com/lib/tildaicon/33396261-3434-4961-b565-393433303935/Tilda_Icons_40_Printery_nonebook.svg"
+									imgfield="li_img__2112642165531"
+									 data-tu-max-width="400" data-tu-max-height="400"									 style="width:80px;"									 alt="">
+
+															<div class="t844__wrappercenter">
+
+
+			<div class="t-card__title t-heading t-heading_md" field="li_title__2112642165531" data-redactor-nohref='yes'>
+							<strong style="color: rgb(252, 218, 5); font-family: Georgia;">O‘rganishni yangi yo‘llarini kashf qiling</strong>
+					</div>
+
+
+			<div class="t-card__descr t-descr t-descr_sm" field="li_descr__2112642165531" data-redactor-nohref='yes'>
+			<p style="text-align: center;">Interaktiv viktorinalar, qiziqarli </p><p style="text-align: center;">videodarsliklar</p><p style="text-align: center;"> va ajoyib o‘rganuvchilar hamjamiyati bilan</p><p style="text-align: center;"> tillarni o‘rganishni boshlang.</p><br /><br /><br /><br />
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  								</div>
+																		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					<div class="t-card__col t-card__col_withoutbtn t844__col t-col t-col_4 t-align_center t-item" data-animate-style="zoomin" data-animate-chain="yes">
+																					<img class="t844__img  t-img"
+									src="https://static.tildacdn.com/lib/tildaicon/62616361-3365-4461-b838-616265336666/Tilda_Icons_42_restaurant_online.svg"
+									imgfield="li_img__2112642165532"
+									 data-tu-max-width="400" data-tu-max-height="400"									 style="width:80px;"									 alt="">
+
+															<div class="t844__wrappercenter">
+
+
+			<div class="t-card__title t-heading t-heading_md" field="li_title__2112642165532" data-redactor-nohref='yes'>
+							<span style="color: rgb(252, 218, 5); font-family: Georgia;">Onlayn ta’lim</span>
+					</div>
+
+
+			<div class="t-card__descr t-descr t-descr_sm" field="li_descr__2112642165532" data-redactor-nohref='yes'>
+			<p style="text-align: center;">O‘zingizni rivojlantirish uchun eng</p><p style="text-align: center;"> sodda yo‘l bo‘lgan bepul onlayn </p><p style="text-align: center;">o‘rganish orqali hunar bilimlaringizni kuchaytiring.</p><br /><br /><br /><br />
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  								</div>
+																		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+											<div class="t-clear t844__separator" style=""></div>
+
+					<div class="t-card__col t-card__col_withoutbtn t844__col t-col t-col_4 t-align_center t-item" data-animate-style="zoomin" data-animate-chain="yes">
+																					<img class="t844__img  t-img"
+									src="https://static.tildacdn.com/lib/tildaicon/30643266-6634-4434-b562-646536393938/18ked_bulb.svg"
+									imgfield="li_img__2112642165533"
+									 data-tu-max-width="400" data-tu-max-height="400"									 style="width:80px;"									 alt="">
+
+															<div class="t844__wrappercenter">
+
+
+			<div class="t-card__title t-heading t-heading_md" field="li_title__2112642165533" data-redactor-nohref='yes'>
+							<strong style="color: rgb(252, 218, 5); font-family: Georgia;">Interaktiv darslar</strong>
+					</div>
+
+
+			<div class="t-card__descr t-descr t-descr_sm" field="li_descr__2112642165533" data-redactor-nohref='yes'>
+			<p style="text-align: center;">Darslar bilan tanishing. Interaktiv darslar</p><p style="text-align: center;"> orqali o‘zingizni ma’naviy va </p><p style="text-align: center;">amaliy bilimlaringizni boyitib borishga harakat qiling.</p>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  								</div>
+																		</div>
+									</div>
+
+
+</div>
+
+
+
+<script>
+	t_onReady(function () {
+		t_onFuncLoad('t844_init', function () {
+			t844_init('697773797');
+		});
+	});
+</script>
+
+
+
+	</div>
+
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+
+							addEditUi("697773797","844");
+				addEditFieldEvents_new("697773797");
+				addEditOnReady("697773797");
+
+		});
+	</script>
+
+
+</div>
+
+
+<div class="record" id="record698047941" recordid="698047941" off="" data-record-type="993" data-record-category="41" data-record-cod="BF802A"  >
+
+
+	<div id="rec698047941" class="r" style="padding-top:90px;padding-bottom:15px; " data-animationappear="off" >
+
+		<!-- t993 -->
+
+
+
+<div class="t993">
+    <div class="t993__container t-container t-align_center">
+		<div class="t993__col t-col t-col_8 t-prefix_2">
+			<div class="t993__items-list" >
+
+
+
+
+
+
+
+				<a
+					class="t-btn t993__btn t-btn_md t993__btn_center"
+					data-btneffects-first="btneffects-flash"					href="#rec698047941"
+										style="color:#ffffff;border:3px solid #ffffff;background-color:#fcda05;"
+					data-buttonfieldset="li_button"
+					data-lid="1619621033276"
+				>
+
+					<div class="t993__btn-text-wrapper" >
+													<div class="t993__btn-text-title">Ta'rif rejalar</div>
+																	</div>
+
+
+									</a>
+						</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+	<style>
+		#rec698047941 .t-btn[data-btneffects-first],
+		#rec698047941 .t-btn[data-btneffects-second],
+		#rec698047941 .t-btn[data-btneffects-third],
+		#rec698047941 .t-submit[data-btneffects-first],
+		#rec698047941 .t-submit[data-btneffects-second],
+		#rec698047941 .t-submit[data-btneffects-third] {
+			position: relative;
+			overflow: hidden;
+			isolation: isolate;
+		}
+
+					#rec698047941 .t-btn[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects,
+			#rec698047941 .t-submit[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects {
+				position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			-webkit-transform: translateX(-85px);
+			-ms-transform: translateX(-85px);
+				transform: translateX(-85px);
+			-webkit-animation-name: flash;
+				animation-name: flash;
+				-webkit-animation-duration: 3s;
+				animation-duration: 3s;
+				-webkit-animation-timing-function: linear;
+				animation-timing-function: linear;
+				-webkit-animation-iteration-count: infinite;
+				animation-iteration-count: infinite;
+			}
+
+			#rec698047941 .t-btn[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects_md,
+			#rec698047941 .t-submit[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects_md  {
+				-webkit-animation-name: flash-md;
+				animation-name: flash-md;
+			}
+
+			#rec698047941 .t-btn[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects_lg,
+			#rec698047941 .t-submit[data-btneffects-first="btneffects-flash"] .t-btn_wrap-effects_lg  {
+				-webkit-animation-name: flash-lg;
+				animation-name: flash-lg;
+			}
+
+			#rec698047941 .t-btn[data-btneffects-first="btneffects-flash"] .t-btn_effects,
+			#rec698047941 .t-submit[data-btneffects-first="btneffects-flash"] .t-btn_effects {
+				background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, .1)), to(rgba(255, 255, 255, .4)));
+			background: -webkit-linear-gradient(left, rgba(255, 255, 255, .1), rgba(255, 255, 255, .4));
+			background: -o-linear-gradient(left, rgba(255, 255, 255, .1), rgba(255, 255, 255, .4));
+			background: linear-gradient(90deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .4));
+			width: 45px;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 30px;
+				-webkit-transform: skewX(-45deg);
+				-ms-transform: skewX(-45deg);
+				transform: skewX(-45deg);
+			}
+
+
+			@-webkit-keyframes flash {
+				20% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+			@keyframes flash {
+				20% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+			@-webkit-keyframes flash-md {
+				30% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+			@keyframes flash-md {
+				30% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+			@-webkit-keyframes flash-lg {
+				40% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+			@keyframes flash-lg {
+				40% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+				100% {
+						-webkit-transform: translateX(100%);
+						transform: translateX(100%);
+				}
+			}
+
+
+			</style>
+
+
+
+	<script>
+
+		t_onReady(function() {
+							var rec = document.getElementById('rec698047941');
+				if (!rec) return;
+
+				var firstButton = rec.querySelectorAll('.t-btn[data-btneffects-first], .t-submit[data-btneffects-first]');
+				Array.prototype.forEach.call(firstButton, function (button) {
+					button.insertAdjacentHTML('beforeend', '<div class="t-btn_wrap-effects"><div class="t-btn_effects"></div></div>');
+					var buttonEffect = button.querySelector('.t-btn_wrap-effects');
+
+					if (button.offsetWidth > 230) {
+						buttonEffect.classList.add('t-btn_wrap-effects_md');
+					}
+
+					if (button.offsetWidth > 750) {
+						buttonEffect.classList.remove('t-btn_wrap-effects_md');
+						buttonEffect.classList.add('t-btn_wrap-effects_lg');
+					}
+				});
+
+
+
+
+					});
+
+	</script>
+
+
+	</div>
+
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+
+							addEditUi("698047941","993");
+				addEditFieldEvents_new("698047941");
+				addEditOnReady("698047941");
+
+		});
+	</script>
+
+
+</div>
+
+
+<div class="record" id="record698052884" recordid="698052884" off="" data-record-type="1070" data-record-category="33" data-record-cod="PL110N"  >
+
+
+	<div id="rec698052884" class="r" style="padding-top:45px;padding-bottom:150px; " data-animationappear="off" >
+
+		<!-- t1070 -->
+
+
+
+
+
+
+
+
+
+<div class="t1070" data-display-changed="true">
+			<div class="t-section__container t-container">
+		<div class="t-col t-col_12">
+			<div class="t-section__topwrapper t-align_center">
+								<div class="t-section__descr t-descr t-descr_xl t-margin_auto" data-animate-style="zoomin" data-animate-group="yes" field="bdescr"><div style="font-size: 24px;" data-customstyle="yes"><p style="text-align: center;"><strong style="font-family: Georgia;">2 oylik oquv kursimizda o'rgatiladigan ta'rif rejalarimiz</strong></p></div></div>			</div>
+		</div>
+	</div>
+
+	<div class="t-container t-card__container t1070__withfeatured">
+		<div class="t1070__row">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									<div class="t1070__col t-card__col t-col t-col_4 t-align_center " data-animate-style="zoomin" data-animate-chain="yes">
+						<div class="t1070__content" style="border: 1px solid #e0e6ed;  border-radius: 9px;">
+
+															<div class="t-card__title t-name t-name_xl" field="li_title__7914859868820" style="" data-redactor-nohref='yes'>
+									<div style="font-size: 30px;" data-customstyle="yes"><span style="color: rgb(252, 218, 5);">Standart</span></div>
+								</div>
+
+															<div class="t-card__descr t-descr t-descr_xs" field="li_descr__7914859868820" style="" data-redactor-nohref='yes'>
+									*Malakali bosqichma bosqich o'qitish<br /><ul><li>*5 ta standart yo'nalish</li><li>*Onlayn biznes xaqida ma'lumot</li><li>*Instagra</li><li>mni 0 dan boshlab yuritish</li><li>*4 ta davlatdan narsa zakaz qilish</li><li>*viza va virtual karta ochish</li><li><strong style="font-size: 36px; font-family: Georgia;">[50 000]</strong></li></ul>
+								</div>
+
+
+																								<div class="t-card__btn t-btn t-btn_sm"
+										style="color:#ffffff;background-color:#fcda05;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;"
+										data-buttonfieldset="li_button"
+										data-lid="7914859868820"
+									>
+										<span class="t1070__btn-title">Ishtirok etish</span>
+									</div>
+																					</div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									<div class="t1070__col t-card__col t-col t-col_4 t-align_center " data-animate-style="zoomin" data-animate-chain="yes">
+						<div class="t1070__content" style="border: 1px solid #e0e6ed;  border-radius: 9px;">
+
+															<div class="t-card__title t-name t-name_xl" field="li_title__7914859868821" style="" data-redactor-nohref='yes'>
+									<div style="font-size: 30px;" data-customstyle="yes"><span style="color: rgb(252, 218, 5); font-family: Georgia;">Premium</span><span style="color: rgb(252, 218, 5);"> </span></div>
+								</div>
+
+															<div class="t-card__descr t-descr t-descr_xs" field="li_descr__7914859868821" style="" data-redactor-nohref='yes'>
+									<ul><li>Butun STANDART to'plami</li><li>Onlayn do'kon ochish va uni yuritish</li><li>Chet davlatlardan zakaz urish</li><li>Busindan sumka yasash</li><li>Diadema yasash</li><li>Like bospul ishlashib</li><li>Treyding kanalursi</li><li>O'zbekiston optom kanallar</li><li style="color: rgb(0, 0, 0);"><span style="font-weight: 800; font-size: 30px; color: rgb(0, 0, 0); font-family: Georgia;">[90 000]</span></li></ul>
+								</div>
+
+
+																								<div class="t-card__btn t-btn t-btn_sm"
+										style="color:#ffffff;background-color:#fcda05;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;"
+										data-buttonfieldset="li_button"
+										data-lid="7914859868821"
+									>
+										<span class="t1070__btn-title">Ishtirok etish</span>
+									</div>
+																					</div>
+					</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									<div class="t1070__col t-card__col t-col t-col_4 t-align_center " data-animate-style="zoomin" data-animate-chain="yes">
+						<div class="t1070__content" style="border: 1px solid #e0e6ed;  border-radius: 9px;">
+
+															<div class="t-card__title t-name t-name_xl" field="li_title__7914859868822" style="" data-redactor-nohref='yes'>
+									<div style="font-size: 30px;" data-customstyle="yes"><span style="font-family: Georgia; color: rgb(252, 218, 5);">Full</span></div>
+								</div>
+
+															<div class="t-card__descr t-descr t-descr_xs" field="li_descr__7914859868822" style="" data-redactor-nohref='yes'>
+									<ul><li>50 xil yo'nalishdan iborat kanal</li><li>Onlayan biznes haqida ma'lumot</li><li>SMM darsliklari</li><li>4 xil til o'rganish guruhlari</li><li>3 oylik kuratorlik</li><li>Biznes qilish uchun ma'lumotlar</li><li>Kuratorlik haqida tushuncha</li><li>Onlayn do'kon ochishdagi qoidalar</li><li>Instagramni 0 dan yuritish uchun kitob</li><li>O'quvchilarimga dars o'tish imkoniyati</li><li style="color: rgb(0, 0, 0);"><strong style="font-size: 30px; font-family: Georgia; color: rgb(0, 0, 0);">[150 000]</strong></li></ul>
+								</div>
+
+
+																								<div class="t-card__btn t-btn t-btn_sm"
+										style="color:#ffffff;background-color:#fcda05;border-radius:30px; -moz-border-radius:30px; -webkit-border-radius:30px;"
+										data-buttonfieldset="li_button"
+										data-lid="7914859868822"
+									>
+										<span class="t1070__btn-title">Ishtirok etish</span>
+									</div>
+																					</div>
+					</div>
+
+													</div>
+	</div>
+</div>
+
+
+
+	<style>
+		#rec698052884 .t1070__featured .t1070__content {
+												box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10) !important;		}
+	</style>
+
+
+<script>
+
+	t_onReady(function () {
+		t_onFuncLoad('t1070_init', function () {
+			t1070_init('698052884');
+		});
+
+
+		setInterval(function () {
+			t_onFuncLoad('t1070_init', function () {
+				t1070_init('698052884');
+			});
+		}, 5000);
+
+
+		window.addEventListener(
+			'resize',
+			t_throttle(function () {
+				t_onFuncLoad('t1070_init', function () {
+					t1070_init('698052884');
+				});
+			}, 250)
+		);
+
+		var rec = document.getElementById('rec698052884');
+		if (rec) {
+			var wrapperBlock = rec.querySelector('.t1070');
+			if (wrapperBlock) {
+				wrapperBlock.addEventListener('displayChanged', function () {
+					t_onFuncLoad('t1070_init', function () {
+						t1070_init('698052884');
+					});
+				});
+			}
+		}
+	});
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+
+							addEditUi("698052884","1070");
+				addEditFieldEvents_new("698052884");
+				addEditOnReady("698052884");
+
+		});
+	</script>
+
+
+</div>
+
+
+<div class="record" id="record698501451" recordid="698501451" off="" data-record-type="464" data-record-category="18" data-record-cod="FT303"  >
+
+
+	<div id="rec698501451" class="r" style="padding-top:75px;padding-bottom:90px; background-color:#000000;" data-animationappear="off" data-bg-color="#000000">
+
+		<!-- T464 -->
+
+<div class="t464">
+	<div class="t-container t-align_center">
+		<div class="t464__col t-col t-col_4">
+												<img class="t464__logo t-img"
+						src="https://static.tildacdn.com/tild3735-6339-4338-b232-386365383862/__2023-12-17_125214.png"
+						imgfield="img"
+												 alt="MENU"
+						>
+														<div class="t464__text t-descr t-descr_xxs" field="text">© birgalikda har qanday ishni amalga oshiramiz</div>
+					</div>
+		<div class="t464__floatbeaker_lr3"></div>
+			<div>
+				<div class="t464__col t-col t-col_2 t-prefix_4">
+									<div class="t464__title t-name t-name_xs t464__title_uppercase" field="title">MENU</div>
+													<div class="t464__descr t-descr t-descr_xxs" field="descr"><ul><li>Bosh sahifa</li><li>Batafsil</li><li>Afzalliklarimiz</li><li>Ta'rif rejalar</li><li>Bog'lanish</li><li></li></ul></div>
+							</div>
+			<div class="t464__col t-col t-col_2">
+									<div class="t464__title t-name t-name_xs t464__title_uppercase" field="title2">FOLLOW US</div>
+													<div class="t464__descr t-descr t-descr_xxs" field="descr2"><ul><li>Telegram</li><li>Instagram</li><li>Facebook</li></ul></div>
+							</div>
+		</div>
+	</div>
+</div>
+
+
+	<style>
+
+			#rec698501451 .t464__title {
+				color: #000000;
+			}
+
+
+
+			#rec698501451 .t464__descr {
+				color: #ffffff;
+			}
+
+
+			</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <style> #rec698501451 .t464__logo {   text-transform: uppercase; }</style>
+
+
+	</div>
+
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+
+							addEditUi("698501451","464");
+				addEditFieldEvents_new("698501451");
+				addEditOnReady("698501451");
+
+		});
+	</script>
+
+
+</div>
+
+</div>
+<!--/allrecords-->
+
+<div id="shortcuttooldiv"></div>
+
+
+<br><br><br>
+
+
+<div class="blocksmap" data-hook="blocks-map"></div>
+
+
+
+
+<script type="text/javascript">
+	var $projectid = 8459826;
+	var $pageid = 42952942;
+	window.projectid = 8459826;
+	window.pageid = 42952942;
+	window.tildaprojectid = 8459826;
+	window.projectalias = "";
+	window.pagealias = "";
+	window.pagepublished = "";
+	window.pageisindex = "";
+	window.projectcustomdomain = "";
+	window.userwithus = "949467";
+	window.usercountry = "UZ";
+	window.userrole = "";
+
+	$( document ).ready(function() {
+	    closeEditForm();
+
+
+		var data = getshortcuttool();
+		$("#shortcuttooldiv").html(data);
+
+
+
+		updateUndoButton();
+		sortModeOn();
+
+
+
+
+
+
+
+
+		setTimeout(function() {
+			initLibrary();
+		}, 500);
+
+	});
+
+	$( window ).load(function() {
+			});
+
+	var $uplan = "1";
+	var $userid = "7881547";
+	var $oplan = "1";
+	var $opaid = "";
+	var $headlinefont = "TildaSans";
+	var $textfont = "TildaSans";
+	var $textfontweight = "";
+	var $textfontsize = "";
+	var $typekitid = "";
+	var $is_email = "";
+				var $lang = "RU";
+
+
+	</script>
+	<script src="/page/tplslistjs/?v=8462&lang=ru" type="text/javascript"></script>
+	<script type="text/javascript">
+
+	var tempdatarecs = [];
+	var tempdatafields = [];
+	var currentkit = 0;
+	var openedtypes = [];
+	var fishes;
+
+		var fishes = '[]';
+
+	window.projecttitle = "abdujabborovnas";
+	window.pagetitle = "Blank page";
+
+
+
+
+</script>
+
+
+
+	<script src="/front/js/t-page-all.min.js?v=8462" type="text/javascript"></script>
+	<script src="/front/js/t-record-all.min.js?v=8462" type="text/javascript"></script>
+	<script src="/front/js/t-edrec-all.min.js?v=8462" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
